@@ -13,7 +13,7 @@ void ShotSpiral::start(Vec2 pos)
 	ShotBase::start(pos);
 
 	float randState = static_cast<float>(GetRand(255));
-	float randRate = randState / 255.0f;
+	float randRate = randState / 256.0f;
 
 	m_startPos = pos;
 	m_radius = 0.0f;
